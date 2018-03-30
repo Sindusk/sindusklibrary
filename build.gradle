@@ -1,0 +1,29 @@
+apply plugin: 'java'
+
+group "mod.sin"
+version "0.1-beta16"
+
+repositories {
+    mavenCentral()
+    maven { url "http://gotti.no-ip.org/maven/repository" }
+}
+
+dependencies {
+    compile 'org.gotti.wurmunlimited:server-modlauncher:0.33-beta1'
+}
+
+jar {
+    archiveName "${project.name}.jar"
+}
+
+
+task dist(type: Zip) {
+    into("mods", {
+        into(project.name, {
+            from jar
+        })
+        from fileTree(dir: 'mods', include: '*')
+    })
+
+    archiveName "${project.name}-${project.version}.zip"
+}
