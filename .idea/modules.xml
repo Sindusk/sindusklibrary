@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Armoury.iml" filepath="$PROJECT_DIR$/.idea/modules/Armoury.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Armoury_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Armoury_main.iml" group="Armoury" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Armoury_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Armoury_test.iml" group="Armoury" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DiscordRelay.iml" filepath="$PROJECT_DIR$/.idea/modules/DiscordRelay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DiscordRelay_main.iml" filepath="$PROJECT_DIR$/.idea/modules/DiscordRelay_main.iml" group="DiscordRelay" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DiscordRelay_test.iml" filepath="$PROJECT_DIR$/.idea/modules/DiscordRelay_test.iml" group="DiscordRelay" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/KingdomOffices.iml" filepath="$PROJECT_DIR$/.idea/modules/KingdomOffices.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/KingdomOffices_main.iml" filepath="$PROJECT_DIR$/.idea/modules/KingdomOffices_main.iml" group="KingdomOffices" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/KingdomOffices_test.iml" filepath="$PROJECT_DIR$/.idea/modules/KingdomOffices_test.iml" group="KingdomOffices" />
@@ -14,6 +17,18 @@
       <module fileurl="file://$PROJECT_DIR$/SinduskLibrary.iml" filepath="$PROJECT_DIR$/SinduskLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SinduskLibrary_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SinduskLibrary_main.iml" group="SinduskLibrary" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SinduskLibrary_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SinduskLibrary_test.iml" group="SinduskLibrary" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spellcraft.iml" filepath="$PROJECT_DIR$/.idea/modules/Spellcraft.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spellcraft_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Spellcraft_main.iml" group="Spellcraft" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spellcraft_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Spellcraft_test.iml" group="Spellcraft" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StarterGear.iml" filepath="$PROJECT_DIR$/.idea/modules/StarterGear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StarterGear_main.iml" filepath="$PROJECT_DIR$/.idea/modules/StarterGear_main.iml" group="StarterGear" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StarterGear_test.iml" filepath="$PROJECT_DIR$/.idea/modules/StarterGear_test.iml" group="StarterGear" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TreasureHunting.iml" filepath="$PROJECT_DIR$/.idea/modules/TreasureHunting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TreasureHunting_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TreasureHunting_main.iml" group="TreasureHunting" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TreasureHunting_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TreasureHunting_test.iml" group="TreasureHunting" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WyvernMods.iml" filepath="$PROJECT_DIR$/.idea/modules/WyvernMods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WyvernMods_main.iml" filepath="$PROJECT_DIR$/.idea/modules/WyvernMods_main.iml" group="WyvernMods" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WyvernMods_test.iml" filepath="$PROJECT_DIR$/.idea/modules/WyvernMods_test.iml" group="WyvernMods" />
     </modules>
   </component>
 </project>

@@ -13,6 +13,15 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../DiscordRelay" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../DiscordRelay" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../KingdomOffices" />
         <option name="modules">
           <set>
@@ -35,6 +44,42 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../Spellcraft" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../Spellcraft" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../StarterGear" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../StarterGear" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../TreasureHunting" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../TreasureHunting" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../WyvernMods" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../WyvernMods" />
           </set>
         </option>
       </GradleProjectSettings>
