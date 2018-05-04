@@ -11,6 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/KingdomOffices.iml" filepath="$PROJECT_DIR$/.idea/modules/KingdomOffices.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/KingdomOffices_main.iml" filepath="$PROJECT_DIR$/.idea/modules/KingdomOffices_main.iml" group="KingdomOffices" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/KingdomOffices_test.iml" filepath="$PROJECT_DIR$/.idea/modules/KingdomOffices_test.iml" group="KingdomOffices" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KingdomStuff.iml" filepath="$PROJECT_DIR$/.idea/modules/KingdomStuff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KingdomStuff_main.iml" filepath="$PROJECT_DIR$/.idea/modules/KingdomStuff_main.iml" group="KingdomStuff" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KingdomStuff_test.iml" filepath="$PROJECT_DIR$/.idea/modules/KingdomStuff_test.iml" group="KingdomStuff" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ServerTweaks.iml" filepath="$PROJECT_DIR$/.idea/modules/ServerTweaks.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ServerTweaks_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ServerTweaks_main.iml" group="ServerTweaks" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ServerTweaks_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ServerTweaks_test.iml" group="ServerTweaks" />

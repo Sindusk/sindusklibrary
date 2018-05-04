@@ -21,11 +21,21 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="disableWrapperSourceDistributionNotification" value="true" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../KingdomOffices" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/../KingdomOffices" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../KingdomStuff" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../KingdomStuff" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -48,6 +58,7 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="disableWrapperSourceDistributionNotification" value="true" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../Spellcraft" />
         <option name="modules">
@@ -75,6 +86,7 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="disableWrapperSourceDistributionNotification" value="true" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../WyvernMods" />
         <option name="modules">

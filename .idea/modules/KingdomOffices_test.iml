@@ -11,10 +11,21 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="KingdomOffices_main" />
     <orderEntry type="library" name="Gradle: org.gotti.wurmunlimited:server-modlauncher:0.33-beta1" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.Sindusk:sindusklibrary:v1.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.Sindusk:sindusklibrary:v1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.Sindusk:DiscordRelay:v1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.gotti.wurmunlimited:common:2613165" level="project" />
     <orderEntry type="library" name="Gradle: org.gotti.wurmunlimited:server:2613165" level="project" />
     <orderEntry type="library" name="Gradle: org.javassist:javassist:3.20.0-GA" level="project" />
+    <orderEntry type="library" name="Gradle: net.dv8tion:JDA:3.3.1_289" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-collections4:4.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.json:json:20160810" level="project" />
+    <orderEntry type="library" name="Gradle: net.sf.trove4j:trove4j:3.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: net.java.dev.jna:jna:4.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.neovisionaries:nv-websocket-client:2.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.8.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.13.0" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="KingdomOffices_main" />
 </module>
