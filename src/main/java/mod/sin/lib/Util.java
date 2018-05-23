@@ -19,7 +19,7 @@ public class Util {
 	private static void checkSuccess(int type, Class<?> instrumentingClass, CtClass editClass, String declaredMethod, String methodCall){
 		String editType = "Instrument";
 		if(type == 1){
-			editType = "Insert Before";
+			editType = "Insert";
 		}else if(type == 2){
 			editType = "Set Body";
 		}
@@ -40,14 +40,14 @@ public class Util {
 			        if (m.getMethodName().equals(methodCall)) {
 			            m.replace(replace);
 			            success = true;
-			            return;
-			        }
+                    }
 			    }
 			});
 			checkSuccess(0, instrumentingClass, ctToInstrument, declaredMethod, methodCall);
 		} catch (CannotCompileException | NotFoundException e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 			checkSuccess(0, instrumentingClass, ctToInstrument, declaredMethod, methodCall);
+			logger.severe(e.getMessage());
 		}
 	}
 	public static void instrumentDescribed(Class<?> instrumentingClass, CtClass ctToInstrument, String declaredMethod, String descriptor, String methodCall, String replace){
@@ -57,14 +57,14 @@ public class Util {
 			        if (m.getMethodName().equals(methodCall)) {
 			            m.replace(replace);
 			            success = true;
-			            return;
-			        }
+                    }
 			    }
 			});
 			checkSuccess(0, instrumentingClass, ctToInstrument, declaredMethod, methodCall);
 		} catch (CannotCompileException | NotFoundException e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 			checkSuccess(0, instrumentingClass, ctToInstrument, declaredMethod, methodCall);
+			logger.severe(e.getMessage());
 		}
 	}
 	public static void insertAfterDeclared(Class<?> instrumentingClass, CtClass ctToInstrument, String declaredMethod, String insert){
@@ -73,8 +73,9 @@ public class Util {
 			success = true;
 			checkSuccess(1, instrumentingClass, ctToInstrument, declaredMethod, "");
 		} catch (CannotCompileException | NotFoundException e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 			checkSuccess(1, instrumentingClass, ctToInstrument, declaredMethod, "");
+			logger.severe(e.getMessage());
 		}
 	}
 	public static void insertAfterDescribed(Class<?> instrumentingClass, CtClass ctToInstrument, String declaredMethod, String descriptor, String insert){
@@ -83,8 +84,9 @@ public class Util {
 			success = true;
 			checkSuccess(1, instrumentingClass, ctToInstrument, declaredMethod, "");
 		} catch (CannotCompileException | NotFoundException e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 			checkSuccess(1, instrumentingClass, ctToInstrument, declaredMethod, "");
+			logger.severe(e.getMessage());
 		}
 	}
 	public static void insertBeforeDeclared(Class<?> instrumentingClass, CtClass ctToInstrument, String declaredMethod, String insert){
@@ -93,8 +95,9 @@ public class Util {
 			success = true;
 			checkSuccess(1, instrumentingClass, ctToInstrument, declaredMethod, "");
 		} catch (CannotCompileException | NotFoundException e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 			checkSuccess(1, instrumentingClass, ctToInstrument, declaredMethod, "");
+			logger.severe(e.getMessage());
 		}
 	}
 	public static void insertBeforeDescribed(Class<?> instrumentingClass, CtClass ctToInstrument, String declaredMethod, String descriptor, String insert){
@@ -103,8 +106,9 @@ public class Util {
 			success = true;
 			checkSuccess(1, instrumentingClass, ctToInstrument, declaredMethod, "");
 		} catch (CannotCompileException | NotFoundException e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 			checkSuccess(1, instrumentingClass, ctToInstrument, declaredMethod, "");
+			logger.severe(e.getMessage());
 		}
 	}
 	public static void setBodyDeclared(Class<?> instrumentingClass, CtClass ctToInstrument, String declaredMethod, String body){
@@ -113,8 +117,9 @@ public class Util {
 			success = true;
 			checkSuccess(2, instrumentingClass, ctToInstrument, declaredMethod, "");
 		} catch (CannotCompileException | NotFoundException e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 			checkSuccess(2, instrumentingClass, ctToInstrument, declaredMethod, "");
+			logger.severe(e.getMessage());
 		}
 	}
 	public static void setBodyDescribed(Class<?> instrumentingClass, CtClass ctToInstrument, String declaredMethod, String descriptor, String body){
@@ -123,8 +128,9 @@ public class Util {
 			success = true;
 			checkSuccess(2, instrumentingClass, ctToInstrument, declaredMethod, "");
 		} catch (CannotCompileException | NotFoundException e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 			checkSuccess(2, instrumentingClass, ctToInstrument, declaredMethod, "");
+			logger.severe(e.getMessage());
 		}
 	}
 }

@@ -32,6 +32,12 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/WyvernMods.iml" filepath="$PROJECT_DIR$/.idea/modules/WyvernMods.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/WyvernMods_main.iml" filepath="$PROJECT_DIR$/.idea/modules/WyvernMods_main.iml" group="WyvernMods" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/WyvernMods_test.iml" filepath="$PROJECT_DIR$/.idea/modules/WyvernMods_test.iml" group="WyvernMods" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/automata.iml" filepath="$PROJECT_DIR$/.idea/modules/automata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/automata_main.iml" filepath="$PROJECT_DIR$/.idea/modules/automata_main.iml" group="automata" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/automata_test.iml" filepath="$PROJECT_DIR$/.idea/modules/automata_test.iml" group="automata" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/priestlove.iml" filepath="$PROJECT_DIR$/.idea/modules/priestlove.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/priestlove_main.iml" filepath="$PROJECT_DIR$/.idea/modules/priestlove_main.iml" group="priestlove" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/priestlove_test.iml" filepath="$PROJECT_DIR$/.idea/modules/priestlove_test.iml" group="priestlove" />
     </modules>
   </component>
 </project>
