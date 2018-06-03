@@ -33,6 +33,27 @@ public class Util {
 		success = false;
 		reason = "";
 	}
+	public static void instrumentDeclaredCount(Class<?> instrumentingClass, CtClass ctToInstrument, String declaredMethod, String methodCall, int count, String replace){
+		try {
+			ctToInstrument.getDeclaredMethod(declaredMethod).instrument(new ExprEditor(){
+			    private int n = 1;
+				public void edit(MethodCall m) throws CannotCompileException {
+					if (m.getMethodName().equals(methodCall)) {
+						if(n == count) {
+							m.replace(replace);
+							success = true;
+						}
+						n++;
+					}
+				}
+			});
+			checkSuccess(0, instrumentingClass, ctToInstrument, declaredMethod, methodCall);
+		} catch (CannotCompileException | NotFoundException e) {
+			//e.printStackTrace();
+			checkSuccess(0, instrumentingClass, ctToInstrument, declaredMethod, methodCall);
+			logger.severe(e.getMessage());
+		}
+	}
 	public static void instrumentDeclared(Class<?> instrumentingClass, CtClass ctToInstrument, String declaredMethod, String methodCall, String replace){
         try {
 			ctToInstrument.getDeclaredMethod(declaredMethod).instrument(new ExprEditor(){
@@ -50,6 +71,27 @@ public class Util {
 			logger.severe(e.getMessage());
 		}
 	}
+    public static void instrumentDescribedCount(Class<?> instrumentingClass, CtClass ctToInstrument, String declaredMethod, String descriptor, String methodCall, int count, String replace){
+        try {
+            ctToInstrument.getMethod(declaredMethod, descriptor).instrument(new ExprEditor(){
+                private int n = 1;
+                public void edit(MethodCall m) throws CannotCompileException {
+                    if (m.getMethodName().equals(methodCall)) {
+                        if(n == count) {
+                            m.replace(replace);
+                            success = true;
+                        }
+                        n++;
+                    }
+                }
+            });
+            checkSuccess(0, instrumentingClass, ctToInstrument, declaredMethod, methodCall);
+        } catch (CannotCompileException | NotFoundException e) {
+            //e.printStackTrace();
+            checkSuccess(0, instrumentingClass, ctToInstrument, declaredMethod, methodCall);
+            logger.severe(e.getMessage());
+        }
+    }
 	public static void instrumentDescribed(Class<?> instrumentingClass, CtClass ctToInstrument, String declaredMethod, String descriptor, String methodCall, String replace){
         try {
 			ctToInstrument.getMethod(declaredMethod, descriptor).instrument(new ExprEditor(){
