@@ -1,7 +1,5 @@
 package mod.sin.lib;
 
-import com.wurmonline.server.combat.ArmourTypes;
-
 import java.util.HashMap;
 import java.util.logging.Logger;
 
@@ -28,16 +26,16 @@ public class ArmourAssist {
 
     public static void initializeArmourMaps(){
         logger.info("Initializing Armour Maps.");
-        armourNameToType.put("cloth", ArmourTypes.ARMOUR_CLOTH);
-        armourNameToType.put("leather", ArmourTypes.ARMOUR_LEATHER);
-        armourNameToType.put("studded", ArmourTypes.ARMOUR_STUDDED);
-        armourNameToType.put("chain", ArmourTypes.ARMOUR_CHAIN);
-        armourNameToType.put("plate", ArmourTypes.ARMOUR_PLATE);
-        armourNameToType.put("drake", ArmourTypes.ARMOUR_LEATHER_DRAGON);
-        armourNameToType.put("dragonscale", ArmourTypes.ARMOUR_SCALE_DRAGON);
-        armourNameToType.put("scale", ArmourTypes.ARMOUR_SCALE);
-        armourNameToType.put("ring", ArmourTypes.ARMOUR_RING);
-        armourNameToType.put("splint", ArmourTypes.ARMOUR_SPLINT);
+        armourNameToType.put("cloth", 6);
+        armourNameToType.put("leather", 1);
+        armourNameToType.put("studded", 2);
+        armourNameToType.put("chain", 3);
+        armourNameToType.put("plate", 4);
+        armourNameToType.put("drake", 9);
+        armourNameToType.put("dragonscale", 10);
+        armourNameToType.put("scale", 7);
+        armourNameToType.put("ring", 5);
+        armourNameToType.put("splint", 8);
         for(String name : armourNameToType.keySet()){
             armourTypeToName.put(armourNameToType.get(name), name);
         }
