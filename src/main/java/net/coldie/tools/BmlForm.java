@@ -121,16 +121,8 @@ public class BmlForm {
         --this.openTables;
     }
 
-    public /* varargs */ void addBoldText(String text, String ... args) {
-        this.addText(text, "bold", args);
-    }
-
     public void addHidden(String name, String val) {
         this.buf.append(this.indent("passthrough{id=\"" + name + "\";text=\"" + val + "\"}"));
-    }
-
-    public /* varargs */ void addText(String text, String ... args) {
-        this.addText(text, "", args);
     }
 
     private String indent(String s) {
@@ -168,7 +160,26 @@ public class BmlForm {
         this.buf.append("input{id='" + id + "';maxchars='" + maxChars + "';text=\"" + defaultText + "\"};");
     }
 
-    private /* varargs */ void addText(String text, String type, String ... args) {
+    public void addColoredText(String text, int r, int g, int b, String ... args){
+        this.addText(text, "", r, g, b, args);
+    }
+
+    public void addBoldText(String text, String ... args) {
+        this.addText(text, "bold", args);
+    }
+
+    public void addBoldColoredText(String text, int r, int g, int b, String ... args){
+        this.addText(text, "bold", r, g, b, args);
+    }
+
+    public void addText(String text, String ... args) {
+        this.addText(text, "", args);
+    }
+
+    private void addText(String text, String type, String ... args){
+        this.addText(text, type, -10, -10, -10, args);
+    }
+    private void addText(String text, String type, int r, int g, int b, String ... args) {
         String[] lines;
         String[] arrstring = lines = text.split("\n");
         int n = arrstring.length;
@@ -180,7 +191,10 @@ public class BmlForm {
             }
             this.buf.append("text{");
             if (!type.equals("")) {
-                this.buf.append("type='" + type + "';");
+                this.buf.append("type='").append(type).append("';");
+            }
+            if(r >= 0 && g >= 0 && b >= 0 && r <= 255 && g <= 255 && b <= 255){
+                this.buf.append("color='").append(r).append(",").append(g).append(",").append(b).append("';");
             }
             this.buf.append("text=\"");
             this.buf.append(String.format(l, args));

@@ -5,9 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Armoury.iml" filepath="$PROJECT_DIR$/.idea/modules/Armoury.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Armoury_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Armoury_main.iml" group="Armoury" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Armoury_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Armoury_test.iml" group="Armoury" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CombatHandled.iml" filepath="$PROJECT_DIR$/.idea/modules/CombatHandled.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CombatHandled_main.iml" filepath="$PROJECT_DIR$/.idea/modules/CombatHandled_main.iml" group="CombatHandled" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CombatHandled_test.iml" filepath="$PROJECT_DIR$/.idea/modules/CombatHandled_test.iml" group="CombatHandled" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DUSKombat.iml" filepath="$PROJECT_DIR$/.idea/modules/DUSKombat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DUSKombat_main.iml" filepath="$PROJECT_DIR$/.idea/modules/DUSKombat_main.iml" group="DUSKombat" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DUSKombat_test.iml" filepath="$PROJECT_DIR$/.idea/modules/DUSKombat_test.iml" group="DUSKombat" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DiscordRelay.iml" filepath="$PROJECT_DIR$/.idea/modules/DiscordRelay.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DiscordRelay_main.iml" filepath="$PROJECT_DIR$/.idea/modules/DiscordRelay_main.iml" group="DiscordRelay" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DiscordRelay_test.iml" filepath="$PROJECT_DIR$/.idea/modules/DiscordRelay_test.iml" group="DiscordRelay" />

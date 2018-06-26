@@ -12,12 +12,11 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="disableWrapperSourceDistributionNotification" value="true" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../CombatHandled" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../DUSKombat" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/../CombatHandled" />
+            <option value="$PROJECT_DIR$/../DUSKombat" />
           </set>
         </option>
       </GradleProjectSettings>
