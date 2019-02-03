@@ -9,11 +9,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: org.gotti.wurmunlimited:server-modlauncher:0.33-beta1" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.Sindusk:sindusklibrary:v1.1" level="project" />
     <orderEntry type="library" name="Gradle: com.github.Sindusk:DiscordRelay:v1.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.gotti.wurmunlimited:common:2613165" level="project" />
-    <orderEntry type="library" name="Gradle: org.gotti.wurmunlimited:server:2613165" level="project" />
     <orderEntry type="library" name="Gradle: org.javassist:javassist:3.20.0-GA" level="project" />
     <orderEntry type="library" name="Gradle: net.dv8tion:JDA:3.3.1_289" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />

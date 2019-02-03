@@ -35,6 +35,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/WyvernMods.iml" filepath="$PROJECT_DIR$/.idea/modules/WyvernMods.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/WyvernMods_main.iml" filepath="$PROJECT_DIR$/.idea/modules/WyvernMods_main.iml" group="WyvernMods" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/WyvernMods_test.iml" filepath="$PROJECT_DIR$/.idea/modules/WyvernMods_test.iml" group="WyvernMods" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/archeotweaks.iml" filepath="$PROJECT_DIR$/.idea/modules/archeotweaks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/archeotweaks_main.iml" filepath="$PROJECT_DIR$/.idea/modules/archeotweaks_main.iml" group="archeotweaks" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/archeotweaks_test.iml" filepath="$PROJECT_DIR$/.idea/modules/archeotweaks_test.iml" group="archeotweaks" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/automata.iml" filepath="$PROJECT_DIR$/.idea/modules/automata.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/automata_main.iml" filepath="$PROJECT_DIR$/.idea/modules/automata_main.iml" group="automata" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/automata_test.iml" filepath="$PROJECT_DIR$/.idea/modules/automata_test.iml" group="automata" />

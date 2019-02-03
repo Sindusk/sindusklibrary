@@ -1,15 +1,15 @@
 apply plugin: 'java'
 
 group "mod.sin"
-version "1.7"
+version "2.0"
 
 repositories {
     mavenCentral()
-    maven { url "http://gotti.no-ip.org/maven/repository" }
+    maven { url "https://dl.bdew.net/agorepo/" }
 }
 
 dependencies {
-    compile 'org.gotti.wurmunlimited:server-modlauncher:0.35-beta1'
+    compile 'org.gotti.wurmunlimited:server-modlauncher:0.40'
 }
 
 jar {
