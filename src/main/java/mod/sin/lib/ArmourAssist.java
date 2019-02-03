@@ -19,7 +19,6 @@ public class ArmourAssist {
                 return type;
             }
         }
-        logger.warning(String.format("Armour type %s is not a valid ArmourType in the ArmourAssist system.", name));
         return null;
     }
 
