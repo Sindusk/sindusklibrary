@@ -14,6 +14,9 @@ public class ArmourAssist {
     public static HashMap<Integer, String> armourByteToName = new HashMap<>();
 
     public static ArmourTemplate.ArmourType getArmourType(String name){
+        if (armourTypes.isEmpty()){
+            initializeArmourTypeMap();
+        }
         for (ArmourTemplate.ArmourType type : armourTypes){
             if (type.getName().equals(name)){
                 return type;
@@ -45,22 +48,23 @@ public class ArmourAssist {
     public static void initializeArmourMaps(){
         logger.info("Initializing Armour Maps.");
 
-        armourNameToByte.put(ArmourTemplate.ARMOUR_TYPE_NONE.getName(), 0);
-        armourNameToByte.put(ArmourTemplate.ARMOUR_TYPE_CLOTH.getName(), 6);
-        armourNameToByte.put(ArmourTemplate.ARMOUR_TYPE_LEATHER.getName(), 1);
-        armourNameToByte.put(ArmourTemplate.ARMOUR_TYPE_STUDDED.getName(), 2);
-        armourNameToByte.put(ArmourTemplate.ARMOUR_TYPE_CHAIN.getName(), 3);
-        armourNameToByte.put(ArmourTemplate.ARMOUR_TYPE_PLATE.getName(), 4);
-        armourNameToByte.put(ArmourTemplate.ARMOUR_TYPE_LEATHER_DRAGON.getName(), 9);
-        armourNameToByte.put(ArmourTemplate.ARMOUR_TYPE_SCALE_DRAGON.getName(), 10);
-        armourNameToByte.put(ArmourTemplate.ARMOUR_TYPE_SCALE.getName(), 7);
-        armourNameToByte.put(ArmourTemplate.ARMOUR_TYPE_RING.getName(), 5);
-        armourNameToByte.put(ArmourTemplate.ARMOUR_TYPE_SPLINT.getName(), 8);
+        armourNameToByte.put("cloth", 6);
+        armourNameToByte.put("leather", 1);
+        armourNameToByte.put("studded", 2);
+        armourNameToByte.put("chain", 3);
+        armourNameToByte.put("plate", 4);
+        armourNameToByte.put("drake", 9);
+        armourNameToByte.put("dragonscale", 10);
+        armourNameToByte.put("scale", 7);
+        armourNameToByte.put("ring", 5);
+        armourNameToByte.put("splint", 8);
 
         for(String name : armourNameToByte.keySet()){
             armourByteToName.put(armourNameToByte.get(name), name);
         }
+    }
 
+    public static void initializeArmourTypeMap(){
         armourTypes.add(ArmourTemplate.ARMOUR_TYPE_NONE);
         armourTypes.add(ArmourTemplate.ARMOUR_TYPE_CLOTH);
         armourTypes.add(ArmourTemplate.ARMOUR_TYPE_LEATHER);
