@@ -10,7 +10,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: org.gotti.wurmunlimited:server-modlauncher:0.40" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.Sindusk:sindusklibrary:v2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.Sindusk:sindusklibrary:v2.1" level="project" />
     <orderEntry type="library" name="Gradle: org.gotti.wurmunlimited:common:3127452" level="project" />
     <orderEntry type="library" name="Gradle: org.gotti.wurmunlimited:server:3127452" level="project" />
     <orderEntry type="library" name="Gradle: org.javassist:javassist:3.23.1-GA" level="project" />
