@@ -4,8 +4,8 @@
  * <email>me@hankcs.com</email>
  * <create-date>2016-03-26 PM5:35</create-date>
  *
- * <copyright file="EnumBuster.java" company="码农场">
- * Copyright (c) 2008-2016, 码农场. All Right Reserved, http://www.hankcs.com/
+ * <copyright file="EnumBuster.java" company="">
+ * Copyright (c) 2008-2016, . All Right Reserved, http://www.hankcs.com/
  * This source is subject to Hankcs. Please contact Hankcs to get more information.
  * </copyright>
  */
@@ -17,7 +17,7 @@ import java.lang.reflect.*;
 import java.util.*;
 
 /**
- * 动态修改Enum的对象
+ * EnumBuster
  * @param <E>
  */
 public class EnumBuster<E extends Enum<E>>
@@ -366,7 +366,7 @@ public class EnumBuster<E extends Enum<E>>
         }
         if (valuesField == null)
         {
-            throw new RuntimeException("本地JVM不支持自定义词性");
+            throw new RuntimeException("Could not find values field");
         }
 
         // we mark it to be public

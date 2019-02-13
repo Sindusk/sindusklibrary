@@ -4,8 +4,8 @@
  * <email>me@hankcs.com</email>
  * <create-date>2016-03-26 PM5:36</create-date>
  *
- * <copyright file="ReflectionHelper.java" company="码农场">
- * Copyright (c) 2008-2016, 码农场. All Right Reserved, http://www.hankcs.com/
+ * <copyright file="ReflectionHelper.java" company="">
+ * Copyright (c) 2008-2016, . All Right Reserved, http://www.hankcs.com/
  * This source is subject to Hankcs. Please contact Hankcs to get more information.
  * </copyright>
  */
@@ -18,7 +18,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
 /**
- * 修改final static域的反射工具
+ * final static
  * @author hankcs
  */
 public class ReflectionHelper
@@ -32,14 +32,14 @@ public class ReflectionHelper
             Field field, Object value)
             throws NoSuchFieldException, IllegalAccessException
     {
-        // 获得 public 权限
+        // public
         field.setAccessible(true);
-        // 将modifiers域设为非final,这样就可以修改了
+        // modifiers
         Field modifiersField =
                 Field.class.getDeclaredField(MODIFIERS_FIELD);
         modifiersField.setAccessible(true);
         int modifiers = modifiersField.getInt(field);
-        // 去掉 final 标志位
+        // final
         modifiers &= ~Modifier.FINAL;
         modifiersField.setInt(field, modifiers);
         FieldAccessor fa = reflection.newFieldAccessor(
