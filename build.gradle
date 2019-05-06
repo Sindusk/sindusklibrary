@@ -1,7 +1,7 @@
 apply plugin: 'java'
 
 group "mod.sin"
-version "2.3"
+version "2.4"
 
 repositories {
     mavenCentral()

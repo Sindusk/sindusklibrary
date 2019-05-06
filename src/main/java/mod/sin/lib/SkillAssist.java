@@ -10,6 +10,7 @@ public class SkillAssist {
     public static HashMap<Integer, String> skillIdToName = new HashMap<>();
 
     public static int getSkill(String name){
+        name = name.toLowerCase(); // Makes it case-insensitive.
         if (skillNameToId.containsKey(name)){
             return skillNameToId.get(name);
         }
