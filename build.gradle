@@ -1,7 +1,7 @@
 apply plugin: 'java'
 
 group "mod.sin"
-version "2.2"
+version "2.3"
 
 repositories {
     mavenCentral()
@@ -9,7 +9,7 @@ repositories {
 }
 
 dependencies {
-    compile 'org.gotti.wurmunlimited:server-modlauncher:0.40'
+    compile 'org.gotti.wurmunlimited:server-modlauncher:0.43'
 }
 
 jar {

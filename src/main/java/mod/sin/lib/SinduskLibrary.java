@@ -13,14 +13,11 @@ Configurable,
 PreInitable {
     boolean bDebug = false;
     
-    private Logger logger;
+    private static Logger logger = Logger.getLogger(SinduskLibrary.class.getName());
 
-    public SinduskLibrary() {
-        this.logger = Logger.getLogger(this.getClass().getName());
-    }
-    
     public void configure(Properties properties) {
         ArmourAssist.initializeArmourMaps();
+        SkillAssist.initializeSkillMaps();
         WoundAssist.initializeWoundMaps();
     }
     
