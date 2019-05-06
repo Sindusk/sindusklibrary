@@ -5,7 +5,8 @@ version "2.3"
 
 repositories {
     mavenCentral()
-    maven { url "https://dl.bdew.net/agorepo/" }
+    maven { url "http://jcenter.bintray.com" }
+    maven { url "http://gotti.no-ip.org/maven/repository" }
 }
 
 dependencies {
