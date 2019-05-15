@@ -144,7 +144,7 @@ public class SkillAssist {
         skillNameToId.put("climbing", 10073);
         skillNameToId.put("stone cutting", 10074);
         skillNameToId.put("stealing", 10075);
-        skillNameToId.put("lockpicking", 10076);
+        skillNameToId.put("lock picking", 10076);
         skillNameToId.put("catapult", 10077);
         skillNameToId.put("animal taming", 10078);
         skillNameToId.put("short bow", 10079);
